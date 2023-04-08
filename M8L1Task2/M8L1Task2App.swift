@@ -13,7 +13,7 @@ struct M8L1Task2App: App {
 
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeScreen()
                 .environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
